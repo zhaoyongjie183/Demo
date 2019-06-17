@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerWebapi</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerWebapi.Controllers.DefaultController.Create(SwaggerWebapi.Model.TodoItem)">
+            <summary>
+            测试实体
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerWebapi.Controllers.ValuesController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <response code="201">Returns the newly created item</response>
+            <response code="400">If the item is null</response>   
+        </member>
+        <member name="M:SwaggerWebapi.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+             DELETE api/values/5
+            </summary>
+            <param name="id">传入ID</param>
+        </member>
+        <member name="T:SwaggerWebapi.Model.TodoItem">
+            <summary>
+            测试实体
+            </summary>
+        </member>
+        <member name="P:SwaggerWebapi.Model.TodoItem.Id">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:SwaggerWebapi.Model.TodoItem.Name">
+            <summary>
+            名字
+            </summary>
+        </member>
+        <member name="P:SwaggerWebapi.Model.TodoItem.IsComplete">
+            <summary>
+            是否完成
+            </summary>
+        </member>
+    </members>
+</doc>

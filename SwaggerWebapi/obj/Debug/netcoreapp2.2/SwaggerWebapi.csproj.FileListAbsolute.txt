@@ -1,0 +1,16 @@
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.deps.json
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.runtimeconfig.json
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.runtimeconfig.dev.json
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.dll
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.csprojAssemblyReference.cache
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.csproj.CoreCompileInputs.cache
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.RazorAssemblyInfo.cache
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.RazorAssemblyInfo.cs
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.AssemblyInfoInputs.cache
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.AssemblyInfo.cs
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.RazorTargetAssemblyInfo.cache
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.pdb
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.dll
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.pdb
+F:\study\Demo\SwaggerWebapi\bin\Debug\netcoreapp2.2\SwaggerWebapi.xml
+F:\study\Demo\SwaggerWebapi\obj\Debug\netcoreapp2.2\SwaggerWebapi.xml

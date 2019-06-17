@@ -1,0 +1,11 @@
+F:\study\Demo\Demo\bin\Debug\netcoreapp2.2\Demo.deps.json
+F:\study\Demo\Demo\bin\Debug\netcoreapp2.2\Demo.runtimeconfig.json
+F:\study\Demo\Demo\bin\Debug\netcoreapp2.2\Demo.runtimeconfig.dev.json
+F:\study\Demo\Demo\bin\Debug\netcoreapp2.2\Demo.dll
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.csprojAssemblyReference.cache
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.csproj.CoreCompileInputs.cache
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfoInputs.cache
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfo.cs
+F:\study\Demo\Demo\bin\Debug\netcoreapp2.2\Demo.pdb
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.dll
+F:\study\Demo\Demo\obj\Debug\netcoreapp2.2\Demo.pdb
