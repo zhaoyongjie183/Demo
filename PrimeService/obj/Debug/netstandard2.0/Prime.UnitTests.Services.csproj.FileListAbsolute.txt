@@ -1,0 +1,8 @@
+F:\study\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.deps.json
+F:\study\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.dll
+F:\study\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.pdb
+F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.csproj.CoreCompileInputs.cache
+F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.AssemblyInfoInputs.cache
+F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.AssemblyInfo.cs
+F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.dll
+F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.pdb

@@ -1,0 +1,17 @@
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\XUnitTestProject.deps.json
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.json
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\XUnitTestProject.runtimeconfig.dev.json
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\XUnitTestProject.dll
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\XUnitTestProject.pdb
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\Prime.UnitTests.Services.dll
+F:\study\Demo\XUnitTestProject\bin\Debug\netcoreapp2.1\Prime.UnitTests.Services.pdb
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.csprojAssemblyReference.cache
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CoreCompileInputs.cache
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfoInputs.cache
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.AssemblyInfo.cs
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.csproj.CopyComplete
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.dll
+F:\study\Demo\XUnitTestProject\obj\Debug\netcoreapp2.1\XUnitTestProject.pdb
