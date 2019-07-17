@@ -12,3 +12,17 @@ F:\study\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.RazorTargetA
 F:\study\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.pdb
 F:\study\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.dll
 F:\study\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.pdb
+E:\Test\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.deps.json
+E:\Test\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.runtimeconfig.json
+E:\Test\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.runtimeconfig.dev.json
+E:\Test\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.dll
+E:\Test\Demo\ProtobufWebapi\bin\Debug\netcoreapp2.2\ProtobufWebapi.pdb
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.csprojAssemblyReference.cache
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.csproj.CoreCompileInputs.cache
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.RazorAssemblyInfo.cache
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.RazorAssemblyInfo.cs
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.AssemblyInfoInputs.cache
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.AssemblyInfo.cs
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.RazorTargetAssemblyInfo.cache
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.dll
+E:\Test\Demo\ProtobufWebapi\obj\Debug\netcoreapp2.2\ProtobufWebapi.pdb

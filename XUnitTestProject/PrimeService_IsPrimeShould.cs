@@ -13,6 +13,7 @@ namespace XUnitTestProject
         }
 
         [Fact]
+        //[TestMethod]
         public void ReturnFalseGivenValueOf1()
         {
             var result = _primeService.IsPrime(1);

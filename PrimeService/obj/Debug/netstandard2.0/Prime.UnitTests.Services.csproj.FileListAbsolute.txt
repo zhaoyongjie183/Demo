@@ -6,3 +6,12 @@ F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.Ass
 F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.AssemblyInfo.cs
 F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.dll
 F:\study\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.pdb
+E:\Test\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.deps.json
+E:\Test\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.dll
+E:\Test\Demo\PrimeService\bin\Debug\netstandard2.0\Prime.UnitTests.Services.pdb
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.csprojAssemblyReference.cache
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.csproj.CoreCompileInputs.cache
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.AssemblyInfoInputs.cache
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.AssemblyInfo.cs
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.dll
+E:\Test\Demo\PrimeService\obj\Debug\netstandard2.0\Prime.UnitTests.Services.pdb
