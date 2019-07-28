@@ -1,0 +1,5 @@
+2019-07-26 17:41:34.4284|INFO|Development environment 
+2019-07-26 17:41:34.6542|INFO|Request starting HTTP/1.1 GET http://localhost:53078/   
+2019-07-26 17:41:34.6844|INFO|Request finished in 31.0163ms 200  
+2019-07-26 17:41:34.8322|INFO|Request starting HTTP/1.1 GET http://localhost:53078/favicon.ico   
+2019-07-26 17:41:34.8322|INFO|Request finished in 2.7842ms 200  

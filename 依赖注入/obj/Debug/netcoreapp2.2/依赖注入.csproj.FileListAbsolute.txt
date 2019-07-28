@@ -1,0 +1,15 @@
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\依赖注入.deps.json
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\依赖注入.runtimeconfig.json
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\依赖注入.runtimeconfig.dev.json
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\依赖注入.dll
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\依赖注入.pdb
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.csprojAssemblyReference.cache
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.csproj.CoreCompileInputs.cache
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.RazorAssemblyInfo.cache
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.RazorAssemblyInfo.cs
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.AssemblyInfoInputs.cache
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.AssemblyInfo.cs
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.RazorTargetAssemblyInfo.cache
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.dll
+E:\Test\Demo\依赖注入\obj\Debug\netcoreapp2.2\依赖注入.pdb
+E:\Test\Demo\依赖注入\bin\Debug\netcoreapp2.2\nlog.config
