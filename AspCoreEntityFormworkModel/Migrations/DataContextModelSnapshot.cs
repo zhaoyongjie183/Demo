@@ -20,10 +20,13 @@ namespace AspCoreEntityFormworkModel.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Password");
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.Property<string>("UserName")
-                        .HasMaxLength(50);
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.HasKey("Id");
 
