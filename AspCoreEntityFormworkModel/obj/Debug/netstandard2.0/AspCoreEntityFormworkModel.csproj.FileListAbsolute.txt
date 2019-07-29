@@ -1,0 +1,14 @@
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\AspCoreEntityFormworkModel.deps.json
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\AspCoreEntityFormworkModel.dll
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\AspCoreEntityFormworkModel.pdb
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.csprojAssemblyReference.cache
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.csproj.CoreCompileInputs.cache
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.AssemblyInfoInputs.cache
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.AssemblyInfo.cs
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.csproj.CopyComplete
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.dll
+E:\Test\Demo\AspCoreEntityFormworkModel\obj\Debug\netstandard2.0\AspCoreEntityFormworkModel.pdb
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Test\Demo\AspCoreEntityFormworkModel\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.xml

@@ -30,7 +30,7 @@ namespace EntityFormwork
             //    m.Property(n => n.BlogId); 
             //    m.Property(n => n.Url).HasMaxLength(50).IsRequired();
             //});
-            //modelBuilder.Entity<Blog>().ToTable("Blog");
+            modelBuilder.Entity<Blog>().ToTable("Blog");
           
         }
 

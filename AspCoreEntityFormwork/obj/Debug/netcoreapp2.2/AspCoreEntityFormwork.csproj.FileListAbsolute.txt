@@ -1,0 +1,17 @@
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormworkModel.dll
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.csprojAssemblyReference.cache
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.csproj.CoreCompileInputs.cache
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.RazorAssemblyInfo.cache
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.RazorAssemblyInfo.cs
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.AssemblyInfoInputs.cache
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.AssemblyInfo.cs
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.RazorTargetAssemblyInfo.cache
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormwork.deps.json
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormwork.runtimeconfig.json
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormwork.runtimeconfig.dev.json
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormwork.dll
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormwork.pdb
+E:\Test\Demo\AspCoreEntityFormwork\bin\Debug\netcoreapp2.2\AspCoreEntityFormworkModel.pdb
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.csproj.CopyComplete
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.dll
+E:\Test\Demo\AspCoreEntityFormwork\obj\Debug\netcoreapp2.2\AspCoreEntityFormwork.pdb
