@@ -1,0 +1,11 @@
+E:\Test\Demo\MysqlDemo\bin\Debug\netcoreapp2.2\MysqlDemo.deps.json
+E:\Test\Demo\MysqlDemo\bin\Debug\netcoreapp2.2\MysqlDemo.runtimeconfig.json
+E:\Test\Demo\MysqlDemo\bin\Debug\netcoreapp2.2\MysqlDemo.runtimeconfig.dev.json
+E:\Test\Demo\MysqlDemo\bin\Debug\netcoreapp2.2\MysqlDemo.dll
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.csproj.CoreCompileInputs.cache
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.AssemblyInfoInputs.cache
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.AssemblyInfo.cs
+E:\Test\Demo\MysqlDemo\bin\Debug\netcoreapp2.2\MysqlDemo.pdb
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.csprojAssemblyReference.cache
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.dll
+E:\Test\Demo\MysqlDemo\obj\Debug\netcoreapp2.2\MysqlDemo.pdb
