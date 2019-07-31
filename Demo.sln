@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFormwork", "EntityFor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "依赖注入", "依赖注入\依赖注入.csproj", "{2FF5B280-5984-4726-AA3F-F7EB74F7CFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreEntityFormwork", "AspCoreEntityFormwork\AspCoreEntityFormwork.csproj", "{FF142177-87F8-4F85-A760-A0144AD8013E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreEntityFormwork", "AspCoreEntityFormwork\AspCoreEntityFormwork.csproj", "{FF142177-87F8-4F85-A760-A0144AD8013E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspCoreEntityFormworkModel", "AspCoreEntityFormworkModel\AspCoreEntityFormworkModel.csproj", "{0B19BA0E-5A6C-43C4-BB31-07FA99523482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreEntityFormworkModel", "AspCoreEntityFormworkModel\AspCoreEntityFormworkModel.csproj", "{0B19BA0E-5A6C-43C4-BB31-07FA99523482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQProject", "RabbitMQProject\RabbitMQProject.csproj", "{1D30F28A-BD85-4DA3-9F54-2E25670864A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{0B19BA0E-5A6C-43C4-BB31-07FA99523482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B19BA0E-5A6C-43C4-BB31-07FA99523482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B19BA0E-5A6C-43C4-BB31-07FA99523482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D30F28A-BD85-4DA3-9F54-2E25670864A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D30F28A-BD85-4DA3-9F54-2E25670864A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D30F28A-BD85-4DA3-9F54-2E25670864A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D30F28A-BD85-4DA3-9F54-2E25670864A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

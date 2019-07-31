@@ -1,0 +1,7 @@
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.deps.json
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.runtimeconfig.json
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.runtimeconfig.dev.json
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.dll
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.csproj.CoreCompileInputs.cache
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfoInputs.cache
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfo.cs
