@@ -12,7 +12,7 @@ namespace MysqlDemo
             using (IDbConnection conn = new MySqlConnection(connestr))
             {
                 conn.Open();
-                for (int i = 115389; i < 2000002; i++)
+                for (int i = 280010; i < 2000002; i++)
                 {
                     Exec(i,conn);
                     Console.WriteLine($"插入成功第{i + 1}");
