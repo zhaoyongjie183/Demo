@@ -5,3 +5,10 @@ E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.dll
 E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.csproj.CoreCompileInputs.cache
 E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfoInputs.cache
 E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.AssemblyInfo.cs
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\RabbitMQProject.pdb
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+E:\Test\Demo\RabbitMQProject\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.csprojAssemblyReference.cache
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.csproj.CopyComplete
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.dll
+E:\Test\Demo\RabbitMQProject\obj\Debug\netcoreapp2.2\RabbitMQProject.pdb

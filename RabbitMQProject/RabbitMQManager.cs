@@ -28,54 +28,60 @@ namespace RabbitMQProject
 
         BindingKey（绑定键）：用于把交换器的消息绑定到队列上；
         */
-        private ConnectionFactory factory;
+        public ConnectionFactory factory;
         public RabbitMQManager()
         {
-            factory = new ConnectionFactory() {
-                HostName = "10.0.75.1",
-                UserName= "guest",
-                Password= "guest",
-                VirtualHost="/"
+
+            factory = new ConnectionFactory()
+            {
+                HostName = "192.168.200.112",
+                UserName = "admin",
+                Password = "123456",
+                VirtualHost = "test-9825"
             };
         }
 
-        public void Publish<T>(T message)
+        public void Publish<T>(T message, string queueName)
         {
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
                 {
                     //queue 队列名称,durable是否持久化，Exclusive：排他队列，Auto-delete:自动删除
-                    //durable
-                    channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
+                    channel.QueueDeclare(queueName, true, false, false, null);
 
                     var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
 
-                    channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
+                    IBasicProperties props = channel.CreateBasicProperties();
+                    props.ContentType = "text/plain";
+                    props.DeliveryMode = 2;
+                    props.Persistent = true;
+
+                    channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: props, body: body);
 
                 }
             }
         }
 
-        public void Receive()
+        public void Receive(string queueName)
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var message = "";
             using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "hello", durable: false, exclusive: false, autoDelete: false, arguments: null);
-
+                var channel = connection.CreateModel();
+                channel.QueueDeclare(queueName, true, false, false, null);
                 var consumer = new EventingBasicConsumer(channel);
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body;
-                    var message = Encoding.UTF8.GetString(body);
-                    Console.WriteLine(" [x] Received {0}", message);
+                    message = Encoding.UTF8.GetString(body);
+                    Console.WriteLine(message);
+                    //返回消息确认
+                    channel.BasicAck(ea.DeliveryTag, true);
                 };
-                channel.BasicConsume(queue: "hello", autoAck: true, consumer: consumer);
-
-                Console.WriteLine(" Press [enter] to exit.");
-                Console.ReadLine();
+                // 消费者开启监听
+                //将autoAck设置false 关闭自动确认
+                channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
             }
         }
     }
