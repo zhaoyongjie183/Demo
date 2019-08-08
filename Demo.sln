@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspCoreEntityFormworkModel"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQProject", "RabbitMQProject\RabbitMQProject.csproj", "{1D30F28A-BD85-4DA3-9F54-2E25670864A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MysqlDemo", "MysqlDemo\MysqlDemo.csproj", "{82DE3909-749B-47F6-89E0-FB537E38CC0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MysqlDemo", "MysqlDemo\MysqlDemo.csproj", "{82DE3909-749B-47F6-89E0-FB537E38CC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQReceive", "RabbitMQReceive\RabbitMQReceive.csproj", "{ACCDAACD-A2D7-4C89-A3E2-5F0ADC38B0DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{82DE3909-749B-47F6-89E0-FB537E38CC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82DE3909-749B-47F6-89E0-FB537E38CC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82DE3909-749B-47F6-89E0-FB537E38CC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCDAACD-A2D7-4C89-A3E2-5F0ADC38B0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCDAACD-A2D7-4C89-A3E2-5F0ADC38B0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCDAACD-A2D7-4C89-A3E2-5F0ADC38B0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCDAACD-A2D7-4C89-A3E2-5F0ADC38B0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

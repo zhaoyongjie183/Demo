@@ -41,6 +41,20 @@ namespace RabbitMQProject
             };
         }
 
+
+        public void Declare(string queueName)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    //queue 队列名称,durable是否持久化，Exclusive：排他队列，Auto-delete:自动删除
+                    channel.QueueDeclare(queueName, true, false, false, null);
+
+                }
+            }
+        }
+
         public void Publish<T>(T message, string queueName)
         {
             using (var connection = factory.CreateConnection())
@@ -63,25 +77,103 @@ namespace RabbitMQProject
             }
         }
 
-        public void Receive(string queueName)
+
+        public void PublishToTopic<T>(T message, string exchangeName, string routeKey, string queueName)
         {
-            var message = "";
             using (var connection = factory.CreateConnection())
             {
-                var channel = connection.CreateModel();
-                channel.QueueDeclare(queueName, true, false, false, null);
-                var consumer = new EventingBasicConsumer(channel);
-                consumer.Received += (model, ea) =>
+                using (var channel = connection.CreateModel())
                 {
-                    var body = ea.Body;
-                    message = Encoding.UTF8.GetString(body);
-                    Console.WriteLine(message);
-                    //返回消息确认
-                    channel.BasicAck(ea.DeliveryTag, true);
-                };
-                // 消费者开启监听
-                //将autoAck设置false 关闭自动确认
-                channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
+                    //定义一个Topic类型交换机
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Topic, true, false, null);
+
+                    // 定义队列 queue 队列名称,durable是否持久化，Exclusive：排他队列，Auto-delete:自动删除
+                    channel.QueueDeclare(queueName, true, false, false, null);
+
+                    //将队列绑定到交换机
+                    channel.QueueBind(queueName, exchangeName, routeKey, null);
+
+                    var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
+
+                    IBasicProperties props = channel.CreateBasicProperties();
+                    props.ContentType = "text/plain";
+                    props.DeliveryMode = 2;
+                    props.Persistent = true;
+
+                    channel.BasicPublish(exchange: exchangeName, routingKey: routeKey, basicProperties: props, body: body);
+
+                }
+            }
+        }
+
+        public void PublishToDirect<T>(T message, string exchangeName, string routeKey, string queueName)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    //定义一个Topic类型交换机
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Direct, true, false, null);
+
+                    // 定义队列 queue 队列名称,durable是否持久化，Exclusive：排他队列，Auto-delete:自动删除
+                    channel.QueueDeclare(queueName, true, false, false, null);
+
+                    //将队列绑定到交换机
+                    //channel.QueueBind(queueName, exchangeName, routeKey, null);
+
+                    var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
+
+                    IBasicProperties props = channel.CreateBasicProperties();
+                    props.ContentType = "text/plain";
+                    props.DeliveryMode = 2;
+                    props.Persistent = true;
+
+                    channel.BasicPublish(exchange: exchangeName, routingKey: routeKey, basicProperties: props, body: body);
+
+                }
+            }
+        }
+        public void PublishToFanout<T>(T message, string exchangeName, string routeKey, string queueName)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    //定义一个Topic类型交换机
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Fanout, true, false, null);
+
+                    // 定义队列 queue 队列名称,durable是否持久化，Exclusive：排他队列，Auto-delete:自动删除
+                    channel.QueueDeclare(queueName, true, false, false, null);
+
+                    //将队列绑定到交换机
+                    channel.QueueBind(queueName, exchangeName, routeKey, null);
+
+                    var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message));
+
+                    IBasicProperties props = channel.CreateBasicProperties();
+                    props.ContentType = "text/plain";
+                    props.DeliveryMode = 2;
+                    props.Persistent = true;
+
+                    channel.BasicPublish(exchange: exchangeName, routingKey: routeKey, basicProperties: props, body: body);
+
+                }
+            }
+        }
+
+        public void BindToTopic(string exchangeName, string routeKey, string queueName)
+        {
+            using (var connection = factory.CreateConnection())
+            {
+                using (var channel = connection.CreateModel())
+                {
+                    //定义一个Topic类型交换机
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Topic, true, false, null);
+
+                    //将队列绑定到交换机
+                    channel.QueueBind(queueName, exchangeName, routeKey, null);
+
+                }
             }
         }
     }

@@ -14,15 +14,19 @@ namespace RabbitMQProject
             /////*发布*/
             //Console.WriteLine("请输入队列名称");
             //var queueName = Console.ReadLine();
-            //Console.WriteLine("请输入发布内容");
+            // Console.WriteLine("请输入发布内容");
             //var content = Console.ReadLine();
-            //rabbitMQManager.Publish<string>(content, queueName);
+            //rabbitMQManager.PublishToDirect<string>("这是什么aaaa", "amq.direct","dirctaa", "hello");
+            // rabbitMQManager.PublishToTopic<string>("这是什么aaaa", "amq.topic", "TestRouteKey.one.two", "hello");
+            //rabbitMQManager.BindToTopic("amq.topic", "TestRouteKey.#", "hello");
+            rabbitMQManager.Declare("hello-zyj");
+            Console.WriteLine("发布完成");
+            // rabbitMQManager.PublishToTopic<string>("test-zyj", "amp.topic", "zyj.*", "hello");
 
-            rabbitMQManager.Receive("hello");
 
 
 
-            //using (IConnection conn = factory.CreateConnection())
+            //using (IConnection conn = rabbitMQManager.factory.CreateConnection())
             //{
             //    using (IModel channel = conn.CreateModel())
             //    {
@@ -40,6 +44,7 @@ namespace RabbitMQProject
             //        consumer.Received += (model, ea) =>
             //        {
             //            byte[] message = ea.Body;//接收到的消息
+            //            channel.BasicAck(ea.DeliveryTag, false);
             //        };
             //        //消费者开启监听
             //        channel.BasicConsume(queue: queueName, autoAck: false, consumer: consumer);
@@ -56,10 +61,6 @@ namespace RabbitMQProject
             Console.ReadLine();
         }
 
-        public static void Exec()
-        {
-            RabbitMQManager rabbitMQManager = new RabbitMQManager();
-            rabbitMQManager.Receive("hello");
-        }
+      
     }
 }
