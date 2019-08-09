@@ -1,0 +1,14 @@
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\RedisProject.deps.json
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\RedisProject.runtimeconfig.json
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\RedisProject.runtimeconfig.dev.json
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\RedisProject.dll
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.csprojAssemblyReference.cache
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.csproj.CoreCompileInputs.cache
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.AssemblyInfoInputs.cache
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.AssemblyInfo.cs
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\RedisProject.pdb
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.dll
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.pdb
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+E:\Test\Demo\RedisProject\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+E:\Test\Demo\RedisProject\obj\Debug\netcoreapp2.2\RedisProject.csproj.CopyComplete
