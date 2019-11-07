@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQReceive", "RabbitMQ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisProject", "RedisProject\RedisProject.csproj", "{A1EA07FE-FC38-4213-9361-D31336347543}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskThread", "TaskThread\TaskThread.csproj", "{C1AB5F7C-D1A5-488D-8022-08345BB9D99D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskThread", "TaskThread\TaskThread.csproj", "{C1AB5F7C-D1A5-488D-8022-08345BB9D99D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientTest", "HttpClient\HttpClientTest.csproj", "{B21D3908-4D57-4ACD-8004-3070D2268A22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{C1AB5F7C-D1A5-488D-8022-08345BB9D99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1AB5F7C-D1A5-488D-8022-08345BB9D99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1AB5F7C-D1A5-488D-8022-08345BB9D99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21D3908-4D57-4ACD-8004-3070D2268A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21D3908-4D57-4ACD-8004-3070D2268A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21D3908-4D57-4ACD-8004-3070D2268A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21D3908-4D57-4ACD-8004-3070D2268A22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
