@@ -31,13 +31,15 @@ namespace RabbitMQReceive
             var connection = factory.CreateConnection();
             var channel = connection.CreateModel();
             channel.QueueDeclare(queueName, true, false, false, null);
+            //告诉Rabbit每次只能向消费者发送一条信息,再消费者未确认之前,不再向他发送信息
+            channel.BasicQos(0, 1, false);
             var consumer = new EventingBasicConsumer(channel);
             consumer.Received += (model, ea) =>
             {
                 var body = ea.Body;
                 message = Encoding.UTF8.GetString(body);
                 Console.WriteLine("收到消息："+message);
-                //返回消息确认
+                //返回消息确认(手动)
                 channel.BasicAck(ea.DeliveryTag, false);
                 Console.ReadKey();
             };

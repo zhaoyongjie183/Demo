@@ -71,8 +71,10 @@ namespace RabbitMQProject
                     props.DeliveryMode = 2;
                     props.Persistent = true;
 
-                    channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: props, body: body);
+                    //告诉Rabbit每次只能向消费者发送一条信息,再消费者未确认之前,不再向他发送信息
+                    channel.BasicQos(0, 1, false);
 
+                    channel.BasicPublish(exchange: "", routingKey: queueName, basicProperties: props, body: body);
                 }
             }
         }
