@@ -4,7 +4,6 @@ E:\Test\Demo\TaskThread\bin\Debug\netcoreapp2.2\TaskThread.runtimeconfig.dev.jso
 E:\Test\Demo\TaskThread\bin\Debug\netcoreapp2.2\TaskThread.dll
 E:\Test\Demo\TaskThread\bin\Debug\netcoreapp2.2\TaskThread.pdb
 E:\Test\Demo\TaskThread\obj\Debug\netcoreapp2.2\TaskThread.csprojAssemblyReference.cache
-E:\Test\Demo\TaskThread\obj\Debug\netcoreapp2.2\TaskThread.csproj.CoreCompileInputs.cache
 E:\Test\Demo\TaskThread\obj\Debug\netcoreapp2.2\TaskThread.AssemblyInfoInputs.cache
 E:\Test\Demo\TaskThread\obj\Debug\netcoreapp2.2\TaskThread.AssemblyInfo.cs
 E:\Test\Demo\TaskThread\obj\Debug\netcoreapp2.2\TaskThread.dll

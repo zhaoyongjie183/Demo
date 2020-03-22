@@ -51,9 +51,11 @@ namespace TaskThread
             //    Console.WriteLine($"线程{Thread.CurrentThread.ManagedThreadId}已开启");
             //});
 
-            Console.WriteLine("主线程开始");
-            TaskDemo1();
-            Console.WriteLine("主线程结束");
+            //Console.WriteLine("主线程开始");
+            //Console.WriteLine("线程ID====="+Thread.CurrentThread.ManagedThreadId);
+            //TaskDemo1();
+            //Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
+            //Console.WriteLine("主线程结束");
 
             //6、await async async和await关键字用来实现异步编程，async用来修饰方法，await用来调用方法，
             //await关键字必须出现在有async的方法中，await调用的方法可以不用async关键字修饰
@@ -61,9 +63,10 @@ namespace TaskThread
 
             // Console.WriteLine("主线程结束");
 
-            //Console.WriteLine("主线程开始");
-            //AsyncDemo1();
-            //Console.WriteLine("主线程结束");
+            Console.WriteLine("主线程开始1"+Thread.CurrentThread.ManagedThreadId);
+            var c= AsyncDemo2().Result;
+            Console.WriteLine("CCCCCCC" + c);
+            Console.WriteLine("主线程结束2" + Thread.CurrentThread.ManagedThreadId);
 
 
 
@@ -72,36 +75,60 @@ namespace TaskThread
 
         static async void AsyncDemo1()
         {
-            Console.WriteLine("异步开始");
+            Console.WriteLine("异步开始"+Thread.CurrentThread.ManagedThreadId);
             await AsyncDemo2();
-            Console.WriteLine("异步结束");
+            Console.WriteLine("异步结束" + Thread.CurrentThread.ManagedThreadId);
+        }
+
+        static async void  task1()
+        {
+
+            Console.WriteLine("子线程开始3" + Thread.CurrentThread.ManagedThreadId);
+            //当前子线程暂停1s
+            //await Task.Run(() => {
+            //    Thread.Sleep(5000);
+            //    Console.WriteLine("子线程哈哈哈哈4" + Thread.CurrentThread.ManagedThreadId);
+            //});
+            Console.WriteLine("子线程结束5" + Thread.CurrentThread.ManagedThreadId);
         }
 
         static async Task<int> AsyncDemo2()
         {
-            Console.WriteLine("子线程开始");
+            Console.WriteLine("子线程开始"+Thread.CurrentThread.ManagedThreadId);
+            int a = 0;
             //当前子线程暂停1s
-            await Task.Delay(1000);
-            Console.WriteLine("子线程结束");
-            return 0;
+            await Task.Run(() => {
+                a = a + 10;
+                Thread.Sleep(5000);
+                a = a + 20;
+            });
+            //abcd.ContinueWith(x => { Console.WriteLine(x.Status); });
+            Console.WriteLine("子线程结束" + Thread.CurrentThread.ManagedThreadId);
+            return a;
         }
 
         static void TaskDemo1()
         {
             Console.WriteLine("异步开始");
-           var t1= Task.Run<int>(() =>
+            Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
+            var t1= Task.Run<int>(() =>
             {
+                Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
                 return TaskDemo2();
+                //Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
             });
             //Task.WaitAll(t1);等待所有任务结束 
             Console.WriteLine("异步结束");
+            Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
         }
 
         static int TaskDemo2()
         {
             Console.WriteLine("子线程开始");
+            Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
             Thread.Sleep(1000);
             Console.WriteLine("子线程结束");
+            Console.WriteLine("线程ID=====" + Thread.CurrentThread.ManagedThreadId);
             return 1;
         }
 
